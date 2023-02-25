@@ -13,7 +13,10 @@ export default function NavBar() {
           </div>
           <li className='navbar-item'>
             <a href='#' className='navbar-link'>
-              <p>Features</p>
+              <p>
+                Features
+                <img src='/assets/icon-arrow-down.svg' alt='arrow-down' />
+              </p>
             </a>
             <ul className='dropdown'>
               <li>
@@ -53,7 +56,10 @@ export default function NavBar() {
 
           <li className='navbar-item'>
             <a href='#' className='navbar-link'>
-              <p>Company</p>
+              <p>
+                Company
+                <img src='/assets/icon-arrow-down.svg' alt='arrow-down' />
+              </p>
             </a>
             <ul className='dropdown'>
               <li>
@@ -95,8 +101,8 @@ export default function NavBar() {
           </li>
 
           <li className='navbar-item'>
-            <a href='#' className='navbar-link ouline'>
-              <p>Register</p>
+            <a href='#' className='navbar-link'>
+              <p className='outline'>Register</p>
             </a>
           </li>
         </ul>

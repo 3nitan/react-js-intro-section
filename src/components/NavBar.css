@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 18px;
 }
 
 .navbar {
+  font-family: 'Epilogue', sans-serif;
   background-color: var(--almost-white);
   height: 60px;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,8 +37,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -45,7 +50,7 @@ p {
   position: relative;
 }
 
-.navbar-link {
+.navbar .navbar-link {
   font-size: 1.2rem;
   color: var(--medium-gray);
   text-decoration: none;
@@ -74,7 +79,7 @@ p {
 }
 
 .dropdown img {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .dropdown li {
@@ -84,7 +89,7 @@ p {
 
 .navbar-item:hover .dropdown {
   background-color: white;
-  box-shadow: var(--almost-gray);
+  box-shadow: var(--medium-gray);
   display: block;
 }
 
@@ -98,8 +103,15 @@ p {
 
 .dropdown a:hover {
   background-color: var(--almost-white);
+  box-shadow: var(--medium-gray);
 }
 
 .outline {
-  border: 1px solid var(--almost-gray);
+  border: 1px solid var(--medium-gray);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.outline:hover {
+  border: 1px solid var(--almost-black);
 }
