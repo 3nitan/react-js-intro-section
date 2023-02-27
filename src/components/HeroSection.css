@@ -29,6 +29,12 @@ p {
   padding: 0px 50px;
 }
 
+@media screen and (min-width: 2000px) {
+  .container {
+    padding-top: 200px;
+  }
+}
+
 .hero-left {
   margin: 0px auto;
   width: 50%;
