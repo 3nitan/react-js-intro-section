@@ -15,10 +15,14 @@ export default function NavBar() {
             <a href='#' className='navbar-link'>
               <p>
                 Features
-                <img src='/assets/icon-arrow-down.svg' alt='arrow-down' />
+                <img
+                  className='dropdown-arrow'
+                  src='/assets/icon-arrow-down.svg'
+                  alt='arrow-down'
+                />
               </p>
             </a>
-            <ul className='dropdown'>
+            <ul className='dropdown features-dropdown'>
               <li>
                 <a href='#'>
                   <p>
@@ -58,10 +62,14 @@ export default function NavBar() {
             <a href='#' className='navbar-link'>
               <p>
                 Company
-                <img src='/assets/icon-arrow-down.svg' alt='arrow-down' />
+                <img
+                  className='dropdown-arrow'
+                  src='/assets/icon-arrow-down.svg'
+                  alt='arrow-down'
+                />
               </p>
             </a>
-            <ul className='dropdown'>
+            <ul className='dropdown company-dropdown'>
               <li>
                 <a href='#'>
                   <p>History</p>
