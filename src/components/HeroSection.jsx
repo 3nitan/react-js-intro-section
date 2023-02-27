@@ -20,7 +20,7 @@ export default function HeroSection() {
             </p>
           </div>
 
-          <a href='#' className='dark'>
+          <a href='.' className='dark'>
             <button>Learn more</button>
           </a>
 
@@ -32,8 +32,11 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+
       <div className='hero-right'>
-        <img src='/assets/image-hero-desktop.png' alt='' />
+        <div className='container'>
+          <img src='/assets/image-hero-desktop.png' alt='' />
+        </div>
       </div>
     </div>
   );
