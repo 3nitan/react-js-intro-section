@@ -7,12 +7,12 @@ export default function NavBar() {
       <div className='navbar-container'>
         <ul className='navbar-items'>
           <div className='logo'>
-            <a href='#'>
+            <a href='.'>
               <img src='/assets/logo.svg' alt='logo' />
             </a>
           </div>
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p>
                 Features
                 <img
@@ -24,7 +24,7 @@ export default function NavBar() {
             </a>
             <ul className='dropdown features-dropdown'>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>
                     <img src='/assets/icon-todo.svg' alt='todo icon' />
                     Todo List
@@ -32,7 +32,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>
                     <img src='/assets/icon-calendar.svg' alt='calendar logo' />
                     Calendar
@@ -40,7 +40,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>
                     <img src='/assets/icon-reminders.svg' alt='reminders' />
                     Reminders
@@ -48,7 +48,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>
                     <img src='/assets/icon-planning.svg' alt='planning' />
                     Planning
@@ -59,7 +59,7 @@ export default function NavBar() {
           </li>
 
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p>
                 Company
                 <img
@@ -71,17 +71,17 @@ export default function NavBar() {
             </a>
             <ul className='dropdown company-dropdown'>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>History</p>
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>Our Team</p>
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='.'>
                   <p>Blog</p>
                 </a>
               </li>
@@ -89,13 +89,13 @@ export default function NavBar() {
           </li>
 
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p>Careers</p>
             </a>
           </li>
 
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p>About</p>
             </a>
           </li>
@@ -103,13 +103,13 @@ export default function NavBar() {
 
         <ul className='navbar-items'>
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p>Login</p>
             </a>
           </li>
 
           <li className='navbar-item'>
-            <a href='#' className='navbar-link'>
+            <a href='.' className='navbar-link'>
               <p className='outline'>Register</p>
             </a>
           </li>
