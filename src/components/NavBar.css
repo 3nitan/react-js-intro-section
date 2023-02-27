@@ -13,8 +13,7 @@ p {
   font-family: 'Epilogue', sans-serif;
   background-color: var(--almost-white);
   height: 60px;
-  max-width: 1320px;
-  margin: 10px 0;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
   align-items: center;
